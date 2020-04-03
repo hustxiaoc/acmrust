@@ -1,0 +1,18 @@
+[package]
+name = "acm"
+version = "0.1.0"
+authors = ["hustxiaoc <308512341@qq.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest="0.10.0-alpha.2"
+futures-util = "0.3"
+futures-channel = "0.3"
+rust-crypto="0.2.36"
+chrono="0.4.10"
+base64="0.11.0"
+percent-encoding="2.1.0"
+tokio="0.2.0-alpha.6"
+
